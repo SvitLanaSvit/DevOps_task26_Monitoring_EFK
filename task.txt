@@ -1,0 +1,43 @@
+1.Створіть Docker-образ для Node.js застосунку, який знаходиться за посиланням:
+
+https://gitlab.com/dan-it/groups/devops_soft/-/tree/main/Monitoring-2?ref_type=heads
+
+2.Підготуйте файл docker-compose і за його допомогою запустіть стек EFK 
+
+3.Запустіть Node.js застосунок у Docker і налаштуйте його так, щоб він надсилав логи до стека EFK.
+
+4.Переконайтесь, що ви бачите логи в Kibana.
+
+
+
+
+
+ENG:
+
+
+
+1. Build docker image for nodejs app located here:
+
+https://gitlab.com/dan-it/groups/devops_soft/-/tree/main/Monitoring-2?ref_type=heads
+
+2. Prepare docker-compose file and run EFK stack using it.
+
+3. Run nodejs app in docker and configure it to send logs to EFK stack.
+
+4. Make sure that you can see logs in Kibana
+
+
+
+
+
+Формат здачі ДЗ:
+
+1. Код Dockerfile
+
+2. Код docker-compose.yaml
+
+3. Код файлів конфігурації
+
+4. Скріни запуску й роботи EFK
+
+5. Скріни роботи Kibana
