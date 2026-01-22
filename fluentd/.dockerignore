@@ -1,0 +1,9 @@
+# Не відправляємо зайве в build context для Fluentd
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.log
+node_modules/

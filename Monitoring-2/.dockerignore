@@ -1,0 +1,23 @@
+# Не відправляємо зайве в build context для Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Секрети/локальні змінні
+.env
+.env.*
+
+# Артефакти збірки/тестів
+coverage/
+dist/
+build/
+.nyc_output/
+
+# Git/IDE/OS
+.git/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
